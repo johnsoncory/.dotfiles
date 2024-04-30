@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~ ~/Workspace/frontend ~/Workspace/service ~/Workspace/libraries ~/Workspace/local ~/Workspace/testing ~/personal -mindepth 1 -maxdepth 1 -type d | fzf)
+    selected=$(find ~ ~/Workspace/frontend ~/Workspace/service ~/Workspace/libraries ~/Workspace/local ~/Workspace/testing ~/Workspace/node-lambdas ~/Workspace/java-lambdas ~/Workspace/step-functions ~/personal -mindepth 1 -maxdepth 1 -type d | fzf)
 fi
 
 if [[ -z $selected ]]; then
