@@ -44,4 +44,3 @@ vim.opt.listchars = {
     nbsp = "_",
 }
 
-vim.opt.showmode = false
